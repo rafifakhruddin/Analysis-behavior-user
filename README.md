@@ -1,6 +1,6 @@
-# 📌 Credit Card Transaction Analysis – PostgreSQL
+# Credit Card Transaction Analysis – PostgreSQL
 
-## 📖 Deskripsi
+## Deskripsi
 Project ini menggunakan PostgreSQL untuk melakukan **data preparation** dan **analisis perilaku pengguna kartu** berdasarkan tiga dataset:  
 - **cards_data** → informasi kartu  
 - **users_data** → informasi pengguna  
@@ -10,7 +10,7 @@ Tujuan utama adalah membersihkan data, menstandarkan tipe data, menghapus duplik
 
 ---
 
-## ⚙️ Cara Menjalankan Kode
+## Cara Menjalankan Kode
 
 ### 1. **Persiapan**
 - Pastikan PostgreSQL sudah terinstal (versi 13+ disarankan).  
@@ -66,11 +66,7 @@ Jika menggunakan `psql` CLI:
 
 ---
 
-## 🚀 Output yang Diharapkan
+## Output yang Diharapkan
 - Data yang sudah bersih, siap divisualisasikan.  
 - Insight mengenai perilaku pengguna kartu berdasarkan gender, usia, brand, dan jenis kartu.  
 - Identifikasi risiko (kartu tanpa chip) dan peluang (nasabah ideal, pengguna debit → kredit).  
-
----
-
-✍️ **Tips:** Setelah data siap, hasil query bisa diekspor ke CSV untuk dianalisis lebih lanjut di **Power BI / Tableau**.  
